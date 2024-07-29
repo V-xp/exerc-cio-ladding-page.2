@@ -1,0 +1,67 @@
+body {
+    
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 18px;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+.menu {
+    display: flex; 
+    align-items: center;
+}
+
+.menu a {
+    font-size: 18px;
+    padding: 11px 7px;
+}
+
+.menu .cadastrar {
+    padding: 10px 21px;
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: hsla(44, 61%, 57%, 0.741);
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .logo {
+        width: 15px;
+        height: auto;
+        margin: 0;
+        gap: 5.59px;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 60%;
+        padding: 30px;
+    }
+}
+
